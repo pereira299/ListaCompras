@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">ListaCompras</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_item" />
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_add_item_product">AddItemProduct</string>
+    <string name="title_activity_add_item_setor">AddItemSetor</string>
+    <string name="title_activity_add_product_setor">AddProductSetor</string>
+    <string name="title_activity_details_list">DetailsList</string>
+    <string name="title_activity_details_setor">DetailsSetor</string>
+    <string name="title_activity_edit_product">EditProduct</string>
+    <string name="title_activity_new_list">NewList</string>
+    <string name="title_activity_new_product">NewProduct</string>
+    <string name="title_activity_new_setor">NewSetor</string>
+    <string name="title_activity_products">Products</string>
+    <string name="title_activity_setores">Setores</string>
+    <string-array name="unity_array">
+        <item>Unidade</item>
+        <item>Litro</item>
+        <item>Mililitro</item>
+        <item>Quilograma</item>
+        <item>Grama</item>
+        <item>Miligrama</item>
+        <item>Metro</item>
+        <item>Centimetro</item>
+        <item>Milimetro</item>
+    </string-array>
+</resources>

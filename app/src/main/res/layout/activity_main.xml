@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFEFEF"
+    tools:context=".screens.HomeActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".75"
+            android:paddingVertical="15dp"
+            android:paddingStart="10dp"
+            android:text="Minhas listas"
+            android:textColor="#000000"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/newProductBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".25"
+            android:background="@android:color/transparent"
+            android:contentDescription="new list"
+            android:src="@drawable/plus_circle_icon" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list_item"
+        android:layout_width="0dp"
+        android:layout_height="507dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <ImageButton
+            android:id="@+id/setorTab"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".33"
+            android:background="#B2251C"
+            android:contentDescription="Tab setor"
+            android:src="@drawable/setor_icon"></ImageButton>
+
+        <ImageButton
+            android:id="@+id/homeTab"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".33"
+            android:background="#821515"
+            android:contentDescription="Tab home"
+            android:src="@drawable/home_active_icon">
+
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/productsTab"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".33"
+            android:background="#B2251C"
+            android:contentDescription="Tab product"
+            android:src="@drawable/product_icon"></ImageButton>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

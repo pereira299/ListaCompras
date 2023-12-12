@@ -1,0 +1,376 @@
+{
+  "name": "component_14",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "sRksxFguKd5BIsiW48bNPw",
+    "node": "7:948",
+    "version": "4778569619",
+    "component-id": "492b721f876b7c2de8186b87c635cf87326c7bab"
+  },
+  "default": "Property 1=Default",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 12"
+      },
+      {
+        "type": "text",
+        "id": "Titulo"
+      },
+      {
+        "type": "text",
+        "id": "R$ 2,58 und"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 13"
+      },
+      {
+        "type": "group",
+        "id": "bi:check"
+      },
+      {
+        "type": "vector",
+        "id": "Vector"
+      }
+    ],
+    "modes": {
+      "Property 1=Default": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Rectangle 12",
+              "Titulo",
+              "R$ 2,58 und",
+              "Rectangle 13"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Rectangle 12",
+            "border-radius": "10.0",
+            "drop-shadow": {
+              "color": {
+                "alpha": "0.24705882352941178",
+                "hue": "0.0",
+                "saturation": "0.0",
+                "value": "0.0"
+              },
+              "blur": "4.0",
+              "offset-x": "0.0",
+              "offset-y": "1.0",
+              "spread": "0.0",
+              "blend-mode": "normal"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-4.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "-3.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "rectangle_12.svg"
+          },
+          {
+            "id": "Titulo",
+            "margin": {
+              "left": "36.0",
+              "top": "8.0",
+              "right": "253.0",
+              "bottom": "9.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "font-weight": "600.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Titulo",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "18.0",
+            "line-height": "1.2102272245619032",
+            "typeface": "Inter"
+          },
+          {
+            "id": "R$ 2,58 und",
+            "margin": {
+              "left": "222.0",
+              "top": "8.0",
+              "right": "13.0",
+              "bottom": "9.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "font-weight": "600.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "136.75675675675677",
+              "saturation": "0.7602739726027397",
+              "value": "0.5725490196078431"
+            },
+            "text-content": "R$ 2,58 und",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "18.0",
+            "line-height": "1.2102272245619032",
+            "typeface": "Inter"
+          },
+          {
+            "id": "Rectangle 13",
+            "margin": {
+              "left": "6.0",
+              "top": "9.0",
+              "right": "314.0",
+              "bottom": "10.0"
+            },
+            "border-radius": "5.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "rectangle_13.svg"
+          }
+        ]
+      },
+      "Property 1=Variant2": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Rectangle 12",
+              "Titulo",
+              "R$ 2,58 und",
+              "Rectangle 13",
+              "bi:check"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Rectangle 12",
+            "border-radius": "10.0",
+            "drop-shadow": {
+              "color": {
+                "alpha": "0.24705882352941178",
+                "hue": "0.0",
+                "saturation": "0.0",
+                "value": "0.0"
+              },
+              "blur": "4.0",
+              "offset-x": "0.0",
+              "offset-y": "1.0",
+              "spread": "0.0",
+              "blend-mode": "normal"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-4.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "-3.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "rectangle_14.svg"
+          },
+          {
+            "id": "Titulo",
+            "margin": {
+              "left": "36.0",
+              "top": "8.0",
+              "right": "253.0",
+              "bottom": "9.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "font-weight": "600.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Titulo",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "18.0",
+            "line-height": "1.2102272245619032",
+            "typeface": "Inter"
+          },
+          {
+            "id": "R$ 2,58 und",
+            "margin": {
+              "left": "222.0",
+              "top": "8.0",
+              "right": "13.0",
+              "bottom": "9.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "font-weight": "600.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "136.75675675675677",
+              "saturation": "0.7602739726027397",
+              "value": "0.5725490196078431"
+            },
+            "text-content": "R$ 2,58 und",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "18.0",
+            "line-height": "1.2102272245619032",
+            "typeface": "Inter"
+          },
+          {
+            "id": "Rectangle 13",
+            "margin": {
+              "left": "6.0",
+              "top": "9.0",
+              "right": "314.0",
+              "bottom": "10.0"
+            },
+            "border-radius": "5.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "rectangle_15.svg"
+          },
+          {
+            "id": "bi:check",
+            "margin": {
+              "left": "6.0",
+              "top": "9.0",
+              "right": "314.0",
+              "bottom": "10.0"
+            },
+            "is-structured": "false",
+            "children": [
+              "Vector"
+            ]
+          },
+          {
+            "id": "Vector",
+            "margin": {
+              "left": "5.1065673828125",
+              "top": "5.9539947509765625",
+              "right": "4.703618049621582",
+              "bottom": "5.937870025634766"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vector.svg"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "Property 1=Default",
+      "size": {
+        "width": 340.0,
+        "height": 39.0
+      }
+    },
+    {
+      "design": "Property 1=Variant2",
+      "size": {
+        "width": 340.0,
+        "height": 39.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

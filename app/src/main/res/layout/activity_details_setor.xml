@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".screens.DetailsSetorActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/priorityBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".10"
+            android:background="@android:color/transparent"
+            android:contentDescription="new list"
+            android:src="@drawable/chevron_icon" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".75"
+            android:paddingVertical="15dp"
+            android:paddingStart="10dp"
+            android:text="Nome do setor"
+            android:textColor="#000000"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/addItemBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".15"
+            android:background="@android:color/transparent"
+            android:contentDescription="new list"
+            android:src="@drawable/plus_circle_icon" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <ImageButton
+            android:id="@+id/setorTab"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".33"
+            android:background="#811515"
+            android:contentDescription="Tab setor"
+            android:src="@drawable/setor_active_icon"></ImageButton>
+
+        <ImageButton
+            android:id="@+id/homeTab"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".33"
+            android:background="#B1251C"
+            android:contentDescription="Tab home"
+            android:src="@drawable/home_icon">
+
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/productsTab"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".33"
+            android:background="#B2251C"
+            android:contentDescription="Tab product"
+            android:src="@drawable/product_icon"></ImageButton>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/details_setor_list"
+        android:layout_width="409dp"
+        android:layout_height="496dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="81dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

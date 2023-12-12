@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:orientation="horizontal"
+    tools:context=".fragments.priority_item_list">
+
+    <ImageView
+        android:id="@+id/fragPriorityImg"
+        android:layout_width="30dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="10dp"
+        android:contentDescription="priority"
+        android:src="@drawable/mark_icon"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/fragTitlePriority"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:paddingStart="10dp"
+            android:text="Titulo"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/fragItemsPriority"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:paddingStart="10dp"
+            android:text="19 itens"
+            android:textColor="#949494"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/fragPricePriority"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingEnd="30dp"
+        android:text="R$ 547,25"
+        android:textAlignment="textEnd"
+        android:textColor="#239343"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+</LinearLayout>
